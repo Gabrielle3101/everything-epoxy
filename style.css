@@ -595,6 +595,17 @@ footer.footer .move-up span:hover{
         flex-basis: 50%;
     }
 }
+
+@media only screen and (max-width: 630px) {
+    .single-service {
+        flex-basis: 100%;
+    }
+
+    .single-service:hover .service-desc {
+        bottom: 40px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .top h1 {
         font-size: 50px;
